@@ -5,6 +5,7 @@
     <TargetFramework>net7.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>WhatsApp-Image-2023-05-31-at-17.55.35.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -39,6 +40,7 @@
     <Content Include="Images\search.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="WhatsApp-Image-2023-05-31-at-17.55.35.ico" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Eci6GxvkEDXjS1zOEyYCbGgOi+cfHrShVih/0xrilZBhTnuqXvjhNm3U8oCYRdN6pon9rM2h1kHECamvYezRwg==",
+  "dgSpecHash": "myuC+2/p/csUIMEf6IQy4lUpYdUGmw6wvncLzeSa9ERwBebjgpFuGLSH4fGspo26l0RuG6qA2xvQBJBPoj5srA==",
   "success": true,
-  "projectFilePath": "D:\\project\\project.csproj",
+  "projectFilePath": "E:\\temp GIT\\WPF APP\\project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Electronica Care\\.nuget\\packages\\adonisui\\1.17.1\\adonisui.1.17.1.nupkg.sha512",
     "C:\\Users\\Electronica Care\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

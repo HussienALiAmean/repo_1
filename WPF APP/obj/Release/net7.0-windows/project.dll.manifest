@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="project.exe" version="1.0.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="project.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="WhatsApp-Image-2023-05-31-at-17.55.35.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Launcher" version="7.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -404,22 +405,22 @@
       <dsig:DigestValue>0c7NtyYyXev8VchGW7oIJt1qvE27H2ZBQxuWUaPDxM4=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="project.dll" size="112640">
+  <file name="project.dll" size="384000">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>tx48P1k5yXQNiIUjvkO1TyHcFtoe1rRlPZwhDPz8fn8=</dsig:DigestValue>
+      <dsig:DigestValue>0lFv5DpuquD5qFpTp+ylpl5Si4kzCwIOu+fiS8bFHuY=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="project.exe" size="154112">
+  <file name="project.exe" size="424960">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>WGjhMmwB4N3wyd/qkMM7yluq0Xoj1lvuoSO+1/nRsF4=</dsig:DigestValue>
+      <dsig:DigestValue>hExnTcVRB+7OBAnlQHC4bP7jVCODQLWmxVglFXDGsW8=</dsig:DigestValue>
     </hash>
   </file>
   <file name="project.runtimeconfig.json" size="441">
@@ -555,6 +556,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>hRr3qHOzX6EbgHRUng6YZvLzDQ8Lv2Nn+m4SFFisBoA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WhatsApp-Image-2023-05-31-at-17.55.35.ico" size="270398">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KeZt5mwtdM19pbj1fuATWfiig1ioo823NNIwUBh5sqc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Xceed.Wpf.AvalonDock.NET5.dll" size="459264">

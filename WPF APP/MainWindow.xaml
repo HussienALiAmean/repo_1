@@ -6,9 +6,9 @@
         xmlns:local="clr-namespace:project"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    
 
-        <Viewbox>
+
+    <Viewbox>
         <Grid>
             <Grid ShowGridLines="False">
                 <Grid.RowDefinitions>
@@ -39,37 +39,37 @@
 
                 </StackPanel>
                 <StackPanel Width="240" Background="AliceBlue" Grid.Row="1" Margin="667,0,-89,0" Grid.ColumnSpan="2">
-                    <Button Background="Transparent" Margin="0 0 0 0" BorderThickness="1" Name="ReportBtn"  Height="70" Click="ReportBtn_Click">
+                    <Button Background="Transparent" Margin="0 0 0 0" BorderThickness="1" Name="ReportBtn"  Height="70" Click="ReportBtn_Click" Cursor="Hand">
                         <Button.Content >
                             <Grid>
-                                <TextBlock   FontSize="25" FontFamily="Traditional Arabic"  Margin="0,12,0,0" Width="85" FontWeight="Bold" HorizontalAlignment="Center" >  كل القضايا</TextBlock>
+                                <TextBlock   FontSize="19" FontFamily="Sylfaen"  Margin="0,12,0,0" Width="201" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" >  كل القضايا</TextBlock>
                             </Grid>
                         </Button.Content>
                     </Button>
 
-                    <Button Background="Transparent" Margin="0 0 0 0" BorderThickness="1" Name="ReportBtssn"  Height="70" Click="ReportBtssn_Click">
+                    <Button Background="Transparent" Margin="0 0 0 0" BorderThickness="1" Name="ReportBtssn"  Height="70" Click="ReportBtssn_Click" Cursor="Hand">
                         <Button.Content >
                             <Grid>
-                                <TextBlock    FontSize="25" FontFamily="Traditional Arabic" Margin="10,8,8,4" FontWeight="Bold" >التعديلات الخاصة بكل مستخدم</TextBlock>
+                                <TextBlock    FontSize="18" FontFamily="Sylfaen" Margin="0,8,1,4" FontWeight="Bold" TextAlignment="Center" >التعديلات الخاصة بكل مستخدم</TextBlock>
                             </Grid>
                         </Button.Content>
                     </Button>
-                    <Button  Background="Transparent"  BorderThickness="1" x:Name="AllUsersBtn"  Height="70" Click="AllUsersBtn_Click">
+                    <Button  Background="Transparent"  BorderThickness="1" x:Name="AllUsersBtn"  Height="70" Click="AllUsersBtn_Click" Cursor="Hand">
                         <Grid Height="50" Width="282">
-                            <TextBlock    FontSize="25" FontFamily="Traditional Arabic" Margin="46,6,81,4" FontWeight="Bold" ><Run Text="عرض كل المستخدمين"/></TextBlock>
+                            <TextBlock    FontSize="19" FontFamily="Sylfaen" Margin="10,15,62,10" FontWeight="Bold" TextAlignment="Center" LineHeight="9" ><Run Text="عرض كل المستخدمين"/></TextBlock>
                         </Grid>
                     </Button>
-                    <Button Background="Transparent" Margin="0 0 0 0" BorderThickness="1" Name="CreateAppointments" Click="CreateAppointments_Click"  Height="70">
+                    <Button Background="Transparent" Margin="0 0 0 0" BorderThickness="1" Name="CreateAppointments" Click="CreateAppointments_Click"  Height="70" Cursor="Hand">
                         <Button.Content >
                             <Grid>
-                                <TextBlock    FontSize="25" FontFamily="Traditional Arabic" Margin="0,5,0,10" HorizontalAlignment="Center" FontWeight="Bold" Width="99" >انشاء المواعيد</TextBlock>
+                                <TextBlock    FontSize="19" FontFamily="Sylfaen" Margin="0,5,0,10" HorizontalAlignment="Center" FontWeight="Bold" Width="219" TextAlignment="Center" >انشاء المواعيد</TextBlock>
                             </Grid>
                         </Button.Content>
                     </Button>
-                    <Button Background="Transparent"  Margin="0 0 0 0" BorderThickness="1" Name="logOutBtn" Height="70" Click="logOutBtn_Click">
+                    <Button Background="Transparent"  Margin="0 0 0 0" BorderThickness="1" Name="logOutBtn" Height="70" Click="logOutBtn_Click" Cursor="Hand">
                         <Button.Content >
                             <Grid>
-                                <TextBlock    FontSize="25" FontFamily="Traditional Arabic" Margin="0,-1,-21,13" HorizontalAlignment="Right" FontWeight="Bold" Width="53" >الخروج</TextBlock>
+                                <TextBlock    FontSize="19" FontFamily="Sylfaen" Margin="0,4,0,10" HorizontalAlignment="Center" FontWeight="Bold" Width="190" TextAlignment="Center" Cursor="Hand" >الخروج</TextBlock>
                             </Grid>
                         </Button.Content>
                     </Button>
@@ -87,5 +87,5 @@
     </Viewbox>
 
 
-  
+
 </Window>

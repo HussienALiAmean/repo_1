@@ -12,5 +12,6 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/logo.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/notification.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/search.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("whatsapp-image-2023-05-31-at-17.55.35.ico")]
 
 

@@ -41,7 +41,8 @@ namespace project
             shortcut.Save();
         }
         private void loginBtn_Click(object sender, RoutedEventArgs e)
-		{
+        {
+            try { 
             Users loginUser = new Users();
             loginUser = Context.Users.FirstOrDefault(e => e.UserName == UserNameText.Text);
             if (loginUser != null)
@@ -62,8 +63,13 @@ namespace project
 			{
 				MessageBox.Show("خطأ في اسم المستخدم او في الرقم السري  من فضلك ادخلهم بشكل صحيح");
 			}
+            }
+            catch(Exception )
+            {
+                MessageBox.Show("خطأ في الالتصال بقاعدة البيانات");
+            }
 
-		}
+        }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
